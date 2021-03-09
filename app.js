@@ -1,8 +1,9 @@
-var titles = documents.getElementsByClassName('title')
+const wmf = document.querySelector('#book-list li:nth-child(2) .name');
+//console.log(wmf);
 
-console.log(Array.isArray(titles));
-console.log(Arry.isArry(Arry.from(titles)));
+var books = document.querySelector('#book-list li .name');
+//console.log(books);
 
-Arry.from(titles).forEach(function(iteam){
-    console.log(iteam)
-})
+Array.from(books).forEach(function(book){
+    console.log(book);
+});
